@@ -14,11 +14,36 @@ public  menuItems: MenuItem[] | undefined = [];
           {
               label: 'New',
               icon: 'pi pi-fw pi-plus',
+              items :[
+                {
+                  label :'Texto y fe  cha',
+                  icon : 'pi pi-aling-left'
+                },
+                {
+                  label :'Números',
+                  icon : 'pi pi-dollar'
+                },
+                {
+                  label :'No comunes',
+                  icon : 'pi pi-globe'
+                },
+
+
+              ]
           },
           {
-              label: 'Delete',
-              icon: 'pi pi-fw pi-trash'
+            label:'Pipes personalizaos',
+            icon : 'pi pi-cog',
+            items :[
+              {
+                label:'Otro elemento',
+                icon : 'pi pi-cog',
+
+              }
+            ]
           }
+       
+          
       ];
   }
 }
