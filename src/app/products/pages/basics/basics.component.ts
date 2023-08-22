@@ -12,6 +12,9 @@ export class BasicsComponent {
   public nameUpper: string = 'SAY'
   public nameTitle: string = 'SaY'
 
+  public customDate : Date = new Date();
+  
+
 
   
 
