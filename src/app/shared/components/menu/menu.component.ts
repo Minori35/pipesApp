@@ -13,19 +13,24 @@ public  menuItems: MenuItem[] | undefined = [];
       this.menuItems = [
           {
               label: 'New',
-              icon: 'pi pi-fw pi-plus',
+              icon: 'pi pi-desktop',
               items :[
                 {
-                  label :'Texto y fe  cha',
-                  icon : 'pi pi-aling-left'
+                  label :'Texto y fecha',
+                  icon : 'pi pi-aling-left',
+                  routerLink: '/basicos'
                 },
                 {
                   label :'Números',
-                  icon : 'pi pi-dollar'
+                  icon : 'pi pi-dollar',
+                  routerLink: '/numbers'
+
                 },
                 {
                   label :'No comunes',
-                  icon : 'pi pi-globe'
+                  icon : 'pi pi-globe',
+                  routerLink: '/uncommon'
+
                 },
 
 
